@@ -5,29 +5,33 @@
 //loop
     //for (let i =; i=; i;{
         //code..
-    //variabili...{
+    //variabile...{
         //code..}
-    //variabili...{
+    //variabile...{
         //code..}
-    //variabili...{
+    //variabile...{
         //code...}
     //}
 
 console.log("test");
 
 //Imposto il loop 
-for (let i = 1; i < 101; i++){
-    console.log(i);
-    //Applico la variabile di un numero divisibile per 3 utilizzando il remainder assignment  %=
+for (let i = 1; i <= 100; i++){
+    //Applico la variabile di un numero divisibile per 3 utilizzando il remainder % //es 18/3= 6 resto 0 = TRUE 
     if (i % 3 == 0 ){
-        console.log( "Fizz");
+        console.log('Fizz');
     }
-    //Applico la variabile di un numero divisibile per 5 utilizzando il remainder assignment %=
+    //Applico la variabile di un numero divisibile per 5 utilizzando il remainder % //es. 20/5= 4 resto 0 = TRUE
     if (i % 5 == 0 ){
-        console.log("Buzz");
+        console.log('Buzz');
     }
-    //Applico la variabile di un numero divisibile sia per 3 che per 5 utilizzando il remainder assignment = %
+    //Applico la variabile di un numero divisibile sia per 3 che per 5 utilizzando il remainder % //es. 15/3=5 15/5=5 resto 0 in entrambi i casi = TRUE
     if (i % 3 == 0 && i % 5 == 0 ){
-        console.log("FizzBuzz");
+       console.log('FizzBuzz');
+    }
+    else {
+        console.log(i);  
     }
 }
+
+
