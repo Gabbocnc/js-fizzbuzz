@@ -22,11 +22,11 @@ for (let i = 1; i <= 100; i++){
         console.log('Fizz');
     }
     //Applico la variabile di un numero divisibile per 5 utilizzando il remainder % //es. 20/5= 4 resto 0 = TRUE
-    if (i % 5 == 0 ){
+    else if (i % 5 == 0 ){
         console.log('Buzz');
     }
     //Applico la variabile di un numero divisibile sia per 3 che per 5 utilizzando il remainder % //es. 15/3=5 15/5=5 resto 0 in entrambi i casi = TRUE
-    if (i % 3 == 0 && i % 5 == 0 ){
+    else if(i % 3 == 0 && i % 5 == 0 ){
        console.log('FizzBuzz');
     }
     else {
